@@ -85,7 +85,6 @@ public class GroupUserServiceImpl implements GroupUserService {
         response.setRole(groupUser.getRole());
         response.setStatus(groupUser.getStatus());
         response.setNotes(groupUser.getNotes());
-
         return response;
     }
 }
